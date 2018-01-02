@@ -1,0 +1,16 @@
+{
+"name": "Crypto Homepage",
+"description": "This extension brings you all the crypto prices from one homepage :)",
+"version": "0.0.1",
+"manifest_version": 2,
+"icons": {
+"128": "chrome_logo.png"
+
+},
+ "chrome_url_overrides" : {
+  "newtab":"index.html"
+},
+"permissions": [
+"https://min-api.cryptocompare.com/"
+]
+}
